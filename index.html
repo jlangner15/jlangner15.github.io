@@ -21,8 +21,8 @@
     #particles-js {
         position: absolute;
         width: 100%;
-        height: 300px;
-        background-color: #016405;
+        height: 250px;
+        background-color: #6d6efc;
         background-image: url("");
         background-repeat: no-repeat;
         background-size: cover;
@@ -43,15 +43,13 @@
 
 <!-- Intro Header -->
 <div class="container pt-5">
-    <h1 class="display-4">Jeremy Langner</h1>
-    <p class="lead">Welcome to my personal portfolio </p>
-    <p> please overstay your welcome</p>
+    <h1 class="display-4 pb-5">Jeremy Langner</h1>
     <hr>
     <div class="socials">
         <i class="fab fa-github"></i> : <a href="https://github.com/jlangner15">Github</a>
         <i class="fab fa-linkedin"></i> :  <a href="https://www.linkedin.com/in/jeremy-langner/">Linkedin</a>
         <i class="fas fa-at"></i> : <a href="mailto:langnerj@mcmaster.ca">langnerj@mcmaster.ca</a>
-        <i class="fas fa-briefcase"></i> : <a href="resume/2020JLResume.html">Resume</a>
+        <i class="fas fa-briefcase"></i> : <a href="resume/2021_22%20JL%20Resume%20.pdf">Resume</a>
     </div>
 </div>
 
@@ -60,58 +58,90 @@
 
     <!-- About Me -->
     <section class="pt-4 pb-3">
-        <h3>💻 About Me</h3>
-        <p>I am a current second year student at McMaster University studying Software Engineering</p>
-        <p>Outside of school work I am often itching for a mountain bike ride, a backroad drive or playing aggressive Euchre with my housemates</p>
+        <h3>About Me</h3>
+        <p>I am a current third year Software Engineering student at McMaster University.
+            I enjoy playing a variety of intramural sports and playing the bass in our house's band.
+            During school breaks you can find me fishing, riding my mountain bike or skiing.</p>
     </section>
 
     <!-- Experience -->
     <section class="pt-4 pb-3">
-        <h3>📁 Experience </h3>
+        <h3>Technical Experience</h3>
         <div class="list-group list-group-flush">
 
-            <!-- Experience Item   -->
+            <!-- Technical Experience   -->
             <div class="list-group-item">
                 <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-0">Student Labourer</h5>
-                    <small>May 2020 - Aug. 2020</small>
+                    <h5 class="mb-0">Formula Electric Software Developer</h5>
                 </div>
-                <small>Simcoe County Roads Dept</small>
-                <p>While being at home during covid it was best for my family and I to get a job close to home providing a public service to the area</p>
-                <ul class="mt-1 mb- pl-4">
-                    <li>Responsible for maintaining 140km of county roads</li>
-                    <li>Sign implementation and repair </li>
-                    <li>Road patching</li>
-                    <li>Shoulder maintenance</li>
-                    <li>Debris clean up</li>
-                </ul>
+                <h6>October 2019 - Present</h6>
+                <a href="https://macformularacing.com/" target="_blank" >McMaster Foruma Electric Racing</a>
+                <p>
+                    Researched all main serial communication protocols(SPI, UART, I2C) to collaborate on a testing module for a Raspberry Pi 3(RPi 3) last year.
+                    The goal of this project is to test functionality of Vehicle Control Unit related hardware easily and more efficiently with a RPi3 instead of using the VCU modules implemented on the car already.
+                    I specifically developed the module that utilized SPI communication. This project followed a rigorous software design process that included:
+                    <ul class="mt-1 mb- pl-4">
+                        <li>Design specification</li>
+                        <li>Software Engineering principals</li>
+                        <li>Design strategy and implementation</li>
+                        <li>Code review and testing</li>
+                        <li>Documentation</li>
+                    </ul>
+                    In the last ccouple months our sub team has been researching and developing a telemetry module to transfer significant data
+                    stats live with the car to the bay at SAE competitions. This process started by collectively researching and learning how
+                    our radio modules operate. Now we are developing the module to actually extract data from the VCU to send between radios.
+                    I recently refactored our UART module to increase its generality and usability while adding layers of abstraction in
+                    preparation for different hardware specifications associated with the module.
+                </p>
             </div>
 
-            <!-- Experience Item   -->
             <div class="list-group-item">
                 <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-0">Crew Member</h5>
-                    <small>Apr. 2016 - Aug. 2019</small>
+                    <h5 class="mb-0">Engineering Competition Finalists</h5>
                 </div>
-                <small>McDonalds</small>
-                <ul class="mt-1 mb-1 pl-4">
-                    <li>Fast pace work to ensure guest satisfaction while maintaining a healthy work environment with colleagues</li>
-                    <li>Directly managed guest inquires and issues in a calm and respectful manor</li>
-                    <li>Improved communication skills in different pace environments with co-workers and managers</li>
-                </ul>
+                <small>McMaster Engineering Competition 2020</small>
+                <p>The McMaster Engineering Competition(MEC) 2020 was run as a 2 day virtual event for all undergraduate engineering students who wanted to participate.
+                    This years competition was significantly different since it was entirely virtual. The goal was for each member to create
+                    a Rudy Goldberg machine, film it performing a simple task in an entertaining yet effective manor. These videos were first
+                    combined in a slideshow and shown to the judges. Five groups, including us, moved on to the next stage where we had to pitch our ideas.
+                    Our pitch involved presenting to the panel of judges with while presenting the informal ideas of the machine in a technical and formal format.
+                    Although this experience was different than the previous year it was a great opportunity to practice and present over virtual
+                    meetings and collaborate with members virtually as well.</p>
+
+                <small>McMaster Engineering Competition 2019</small>
+                <p> The MEC in 2019 was a more traditional style since it was an in person single day event. The task was to create a freestanding structure to
+                    withstand a certain amount of wind from a single source. Our group of four was given several specifications and constraints regarding our solution.
+                    The two biggest constraints were time and cost. We had to plan, build and prototype a our structure using materials that we had to "purchase" from
+                    the committee using the given budget. We also had deadlines on presenting, demonstrating and submitting all work involved. Overall this was a great experience to
+                    improve collaborating and problem solving skills since it was with an unfamiliar group with a small scale problem but realistic constraints and expectations.
+                </p>
             </div>
         </div>
     </section>
 
     <!-- Projects -->
     <section class="pt-4 pb-3">
-        <h3>🛠 Projects</h3>
+        <h3>Projects</h3>
         <div class="container pt-2">
             <div class="row hidden-md-up">
                 <div class="col-md-4 pb-3">
 
                     <!-- Project Card  -->
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 36rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Formula Electric Raspberry Pi Testing Suite</h5>
+                            <p class="card-text">
+                                Researched all main serial communication protocols(SPI, UART, I2C) to collaborate on a testing module for a Raspberry Pi 3(RPi3) using Python.
+                                The goal of this project is to test functionality of Vehicle Control Unit related hardware easily and more efficiently with a RPi3
+                                instead of using the VCU modules implemented on the car already. This specific project was to test functionality of an accelerometer.
+                                I took an object oriented approach in Python to add a layer of abstraction and encapsulate all individual functions under a single class.
+                                This implementation used a library known as spidev to handle communication between the RPi3 and the accelerometer.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Project Card  -->
+                    <div class="card" style="width: 36rem;">
                         <div class="card-body">
                             <h5 class="card-title">Automated Webscraper</h5>
                             <h6 class="card-subtitle mb-2 text-muted">Python</h6>
@@ -121,7 +151,6 @@
                             </a>
                         </div>
                     </div>
-
                 </div>
 
             </div>
@@ -130,20 +159,53 @@
 
     <!-- Skills -->
     <section class="pt-4 pb-3">
-        <h3>👨‍💻 Skills</h3>
+        <h3>Skills</h3>
         <ul class="mt-1 mb-1">
-            <li><b>Languages:</b> Python, Java, MatLab, HTML, CSS </li>
-            <li><b>Tools:</b> GitHub, Git, Bash</li>
+            <li><b>Languages:</b> Python, Java, C, SQL, Git, HTML, CSS ,Bash, LaTex, Bash, Assembly(64 bit NASM), MatLab</li>
+            <li><b>Technologies:</b> Unix/ Linux environment, GitHub, Gitlab, STM32Cube IDE, JetBrains Suite, vscode, Microsoft Suite, Google Suite</li>
         </ul>
     </section>
 
     <!-- Hobbies -->
     <section class="pt-4 pb-3">
-        <h3>🏂 Hobbies</h3>
+        <h3>How I enjoy spending free time</h3>
         <ul class="mt-1 mb-1">
+            <li>Bass guitar</li>
             <li>Skiing</li>
             <li>Mountain biking</li>
+            <li>Ultimate Frisbee</li>
         </ul>
+    </section>
+
+    <!-- Work Experience -->
+    <section class="'pt-4 pb-3">
+        <h3>Past Work Experience</h3>
+        <div class="list-group-item">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-0">Student Labourer</h5>
+                <small>May - September 2020/2021</small>
+            </div>
+            <small>Simcoe County Roads Dept</small>
+            <ul class="mt-1 mb- pl-4">
+                <li>Responsible for maintaining 140km of county roads with all construction and operations conducted safely for both travellers and employees</li>
+                <li>Effective communication with other colleagues was necessary via a variety of forms</li>
+                <li>Handling civilian requests/ inquiries on the spot</li>
+            </ul>
+        </div>
+
+
+        <div class="list-group-item">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-0">Crew Member</h5>
+                <small>Apr. 2016 - Aug. 2019</small>
+            </div>
+            <small>McDonalds</small>
+            <ul class="mt-1 mb-1 pl-4">
+                <li>Fast pace work to ensure guest satisfaction while maintaining a healthy work environment with colleagues</li>
+                <li>Directly managed guest inquires and issues in a calm and respectful manor</li>
+                <li>Improved communication skills in different pace environments with co-workers and managers</li>
+            </ul>
+        </div>
     </section>
 </div>
 </body>
@@ -151,112 +213,3 @@
 
 <!-- PARTICLE EFFECT -->
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-
-<script>
-    // LOAD PARTICLE EFFECT
-    particlesJS("particles-js", {
-        "particles": {
-            "number": {
-                "value": 80,
-                "density": {
-                    "enable": true,
-                    "value_area": 800
-                }
-            },
-            "color": {
-                "value": "#ffffff"
-            },
-            "shape": {
-                "type": "circle",
-                "stroke": {
-                    "width": 0,
-                    "color": "#000000"
-                },
-                "polygon": {
-                    "nb_sides": 5
-                },
-            },
-            "opacity": {
-                "value": 0.5,
-                "random": false,
-                "anim": {
-                    "enable": false,
-                    "speed": 1,
-                    "opacity_min": 0.1,
-                    "sync": false
-                }
-            },
-            "size": {
-                "value": 3,
-                "random": true,
-                "anim": {
-                    "enable": false,
-                    "speed": 20,
-                    "size_min": 0.1,
-                    "sync": false
-                }
-            },
-            "line_linked": {
-                "enable": true,
-                "distance": 150,
-                "color": "#ffffff",
-                "opacity": 0.4,
-                "width": 1
-            },
-            "move": {
-                "enable": true,
-                "speed": 6,
-                "direction": "none",
-                "random": false,
-                "straight": false,
-                "out_mode": "out",
-                "bounce": false,
-                "attract": {
-                    "enable": false,
-                    "rotateX": 600,
-                    "rotateY": 1200
-                }
-            }
-        },
-        "interactivity": {
-            "detect_on": "canvas",
-            "events": {
-                "onhover": {
-                    "enable": true,
-                    "mode": "repulse"
-                },
-                "onclick": {
-                    "enable": true,
-                    "mode": "push"
-                },
-                "resize": true
-            },
-            "modes": {
-                "grab": {
-                    "distance": 400,
-                    "line_linked": {
-                        "opacity": 1
-                    }
-                },
-                "bubble": {
-                    "distance": 400,
-                    "size": 40,
-                    "duration": 2,
-                    "opacity": 8,
-                    "speed": 3
-                },
-                "repulse": {
-                    "distance": 200,
-                    "duration": 0.4
-                },
-                "push": {
-                    "particles_nb": 4
-                },
-                "remove": {
-                    "particles_nb": 2
-                }
-            }
-        },
-        "retina_detect": true
-    });
-</script>

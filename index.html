@@ -5,44 +5,15 @@
     <title>My Portfolio</title>
     <meta name="description" content="My Portfolio website">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-          rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
 </head>
-<style>
-    body {
-        font-family: 'PT Sans', sans-serif;
-        margin: 0;
-        padding: 0;
-    }
-    .content{padding-top:100px;}
-    #particles-js {
-        position: absolute;
-        width: 100%;
-        height: 250px;
-        background-color: #6d6efc;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 50% 50%;
-        z-index: -1;
-    }
-    .socials a{
-        color: #ffffff;
-        padding-right: 8px;
-        padding-bottom: 8px;
-    }
-</style>
 
 <body>
 
-<!-- Particle Effect -->
-<div id="particles-js" class="big"></div>
 
 <!-- Intro Header -->
-<div class="container pt-5">
-    <h1 class="display-4 pb-5">Jeremy Langner</h1>
+<div >
+    <h1>Jeremy Langner</h1>
     <hr>
     <div class="socials">
         <i class="fab fa-github"></i> : <a href="https://github.com/jlangner15">Github</a>
@@ -56,7 +27,7 @@
 <div class="container content">
 
     <!-- About Me -->
-    <section class="pt-4 pb-3">
+    <section>
         <h3>About Me</h3>
         <p>I am a current third year Software Engineering student at McMaster University.
             I enjoy playing a variety of intramural sports and playing the bass in our house's band.
@@ -64,14 +35,14 @@
     </section>
 
     <!-- Experience -->
-    <section class="pt-4 pb-3">
+    <section>
         <h3>Technical Experience</h3>
         <div class="list-group list-group-flush">
 
             <!-- Technical Experience   -->
-            <div class="list-group-item">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-0">Formula Electric Software Developer</h5>
+            <div >
+                <div>
+                    <h5>Formula Electric Software Developer</h5>
                 </div>
                 <h6>October 2019 - Present</h6>
                 <a href="https://macformularacing.com/" target="_blank" >McMaster Foruma Electric Racing</a>
@@ -79,7 +50,7 @@
                     Researched all main serial communication protocols(SPI, UART, I2C) to collaborate on a testing module for a Raspberry Pi 3(RPi 3) last year.
                     The goal of this project is to test functionality of Vehicle Control Unit related hardware easily and more efficiently with a RPi3 instead of using the VCU modules implemented on the car already.
                     I specifically developed the module that utilized SPI communication. This project followed a rigorous software design process that included:
-                    <ul class="mt-1 mb- pl-4">
+                    <ul>
                         <li>Design specification</li>
                         <li>Software Engineering principals</li>
                         <li>Design strategy and implementation</li>
@@ -94,9 +65,9 @@
                 </p>
             </div>
 
-            <div class="list-group-item">
-                <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-0">Engineering Competition Finalists</h5>
+            <div>
+                <div>
+                    <h5>Engineering Competition Finalists</h5>
                 </div>
                 <small>McMaster Engineering Competition 2020</small>
                 <p>The McMaster Engineering Competition(MEC) 2020 was run as a 2 day virtual event for all undergraduate engineering students who wanted to participate.
@@ -119,17 +90,17 @@
     </section>
 
     <!-- Projects -->
-    <section class="pt-4 pb-3">
+    <section>
         <h3>Projects</h3>
-        <div class="container pt-2">
-            <div class="row hidden-md-up">
-                <div class="col-md-4 pb-3">
+        <div">
+            <div>
+                <div>
 
                     <!-- Project Card  -->
-                    <div class="card" style="width: 36rem;">
-                        <div class="card-body">
-                            <h5 class="card-title">Formula Electric Raspberry Pi Testing Suite</h5>
-                            <p class="card-text">
+                    <div>
+                        <div >
+                            <h5 >Formula Electric Raspberry Pi Testing Suite</h5>
+                            <p >
                                 Researched all main serial communication protocols(SPI, UART, I2C) to collaborate on a testing module for a Raspberry Pi 3(RPi3) using Python.
                                 The goal of this project is to test functionality of Vehicle Control Unit related hardware easily and more efficiently with a RPi3
                                 instead of using the VCU modules implemented on the car already. This specific project was to test functionality of an accelerometer.
@@ -140,11 +111,11 @@
                     </div>
 
                     <!-- Project Card  -->
-                    <div class="card" style="width: 48rem;">
-                        <div class="card-body">
-                            <h5 class="card-title">Back to Hacking 2021 Virtual Hackathon</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Python, Flask, SQLAlchemy, HTML, CSS </h6>
-                            <p class="card-text">
+                    <div>
+                        <div>
+                            <h5>Back to Hacking 2021 Virtual Hackathon</h5>
+                            <h6 >Python, Flask, SQLAlchemy, HTML, CSS </h6>
+                            <p >
                                 Entered my first hackathon; Back to Hacking 2021 which was a virtual hackathon help from November 19 - 21, 2021.first time hackers.
                                 I cam across two fellow post secondary students, a recent high school graduate looking applying for college in the U.S from Bangladesh
                                 and a Sophmore Electrical Engineering student studying at Netaji Subhash University Of Technology in India.
@@ -157,7 +128,7 @@
                                 that solves an intermediate yet important problem.
                             </p>
                             <a href="https://github.com/jlangner15/parenthesisCheck" target="_blank" class="card-link">
-                                <i class="fab fa-github"></i> Parenthesis Validator
+                                Parenthesis Validator
                             </a>
                             <a href="https://devpost.com/software/parenthesis-validator" target="_blank" class="card-link">
                                 Devpost Submission
@@ -171,18 +142,18 @@
     </section>
 
     <!-- Skills -->
-    <section class="pt-4 pb-3">
+    <section>
         <h3>Skills</h3>
-        <ul class="mt-1 mb-1">
+        <ul>
             <li><b>Languages:</b> Python, Java, C, SQL, Git, HTML, CSS ,Bash, LaTex, Bash, Assembly(64 bit NASM), MatLab</li>
             <li><b>Technologies:</b> Unix/ Linux environment, GitHub, Gitlab, STM32Cube IDE, JetBrains Suite, vscode, Microsoft Suite, Google Suite</li>
         </ul>
     </section>
 
     <!-- Hobbies -->
-    <section class="pt-4 pb-3">
+    <section>
         <h3>How I enjoy spending free time</h3>
-        <ul class="mt-1 mb-1">
+        <ul>
             <li>Bass guitar</li>
             <li>Skiing</li>
             <li>Mountain biking</li>
@@ -191,15 +162,15 @@
     </section>
 
     <!-- Work Experience -->
-    <section class="'pt-4 pb-3">
+    <section>
         <h3>Past Work Experience</h3>
-        <div class="list-group-item">
-            <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-0">Student Labourer</h5>
+        <div>
+            <div>
+                <h5>Student Labourer</h5>
                 <small>May - September 2020/2021</small>
             </div>
             <small>Simcoe County Roads Dept</small>
-            <ul class="mt-1 mb- pl-4">
+            <ul>
                 <li>Responsible for maintaining 140km of county roads with all construction and operations conducted safely for both travellers and employees</li>
                 <li>Effective communication with other colleagues was necessary via a variety of forms</li>
                 <li>Handling civilian requests/ inquiries on the spot</li>
@@ -207,13 +178,13 @@
         </div>
 
 
-        <div class="list-group-item">
-            <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-0">Crew Member</h5>
+        <div>
+            <div>
+                <h5>Crew Member</h5>
                 <small>Apr. 2016 - Aug. 2019</small>
             </div>
             <small>McDonalds</small>
-            <ul class="mt-1 mb-1 pl-4">
+            <ul>
                 <li>Fast pace work to ensure guest satisfaction while maintaining a healthy work environment with colleagues</li>
                 <li>Directly managed guest inquires and issues in a calm and respectful manor</li>
                 <li>Improved communication skills in different pace environments with co-workers and managers</li>

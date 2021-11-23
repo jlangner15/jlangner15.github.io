@@ -1,0 +1,22 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #dbd4d4;
+}
+
+.content{padding-top: 100%}
+
+.socials a{
+    color: #ffffff;
+    padding-right: 8px;
+    padding-bottom: 8px;
+}
+
+h3{
+    background: darkgrey;
+    color: white;
+    border-width: 3px;
+    border-color: black;
+}
+

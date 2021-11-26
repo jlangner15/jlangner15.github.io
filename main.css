@@ -1,8 +1,10 @@
 body {
-    font-family: 'PT Sans', sans-serif;
-    margin: 30px;
+    font-family: 'Courier New', monospace;
+    margin: 10%;
+    margin-top: 45px;
     padding: 0;
-    background: #ffffff;
+    background: #F0E9D2;
+    color: #000000;
 }
 
 .socials{
@@ -10,43 +12,102 @@ body {
     font-size: 20px;
     padding: 10px;
     margin: 42px;
+    border-color: black;
 }
 
-h3{
-    color: #000000;
-    border-width: 3px;
-    border-color: black;
+a:link, a:visited {
+    background-color: #678983;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-color: #181D31;
+    border-radius: 8px;
+}
+
+a:hover, a:active {
+    background-color: #181D31;
+}
+
+a.cardButton{
+    background-color: #ffffff;
+    color: #181D31;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-color: #000000;
+    border-width: 4px;
+    border-radius: 8px;
 }
 
 h1{
     text-align: center;
+    font-size: 48px;
+}
+
+h2{
+    text-align: center;
     font-size: 36px;
+    color: #181D31;
 }
 
 h3{
-    font-size: 24px;
+    font-size: 32px;
 }
 
 h5 {
-    font-size: 20px;
+    font-size: 30px;
+    padding: 4px;
 }
 
 h6{
-    font-size: 16px;
+    font-size: 28px;
 }
 
 p{
-    font-size: 18px;
+    font-size: 24px;
+    color: #000000;
+}
+p.p_title{
+
+}
+
+li{
+    font-size: 24px;
+    color: #000000;
 }
 
 .cardBox{
-    border-width:2px;
+    border-width:6px;
     border-style:solid;
-    border-color:black;
+    border-color: #000000;
+    border-radius: 8px;
     padding: 4px;
     margin: 2px;
-    background: white;
-    background: #dfcfbe;
+    background: #678983;
+}
+
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #678983 #F0E9D2;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #F0E9D2;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #678983;
+    border-radius: 20px;
+    border: 3px solid #F0E9D2;
 }
 
 

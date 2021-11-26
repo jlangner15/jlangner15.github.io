@@ -31,8 +31,8 @@ a:hover, a:active {
 }
 
 a.cardButton{
-    background-color: #ffffff;
-    color: #181D31;
+    background-color: #678983;
+    color: #ffffff;
     padding: 5px 15px;
     text-align: center;
     text-decoration: none;
@@ -40,6 +40,7 @@ a.cardButton{
     border-color: #000000;
     border-width: 4px;
     border-radius: 8px;
+    font-weight: bold;
 }
 
 h1{
@@ -59,7 +60,6 @@ h3{
 
 h5 {
     font-size: 30px;
-    padding: 4px;
 }
 
 h6{
@@ -70,13 +70,35 @@ p{
     font-size: 24px;
     color: #000000;
 }
-p.p_title{
 
+p.cardBoxHeading{
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+p.carBoxSubheading{
+    font-size: 18px;
+}
+
+.carBoxSubheading{
+    padding-top: -10px;
+}
+
+ul{
+    font-size: 18px;
 }
 
 li{
     font-size: 24px;
     color: #000000;
+}
+
+.alignLeft{
+    float: left;
+}
+
+.alignRight{
+    float: right;
 }
 
 .cardBox{
@@ -86,8 +108,9 @@ li{
     border-radius: 8px;
     padding: 4px;
     margin: 2px;
-    background: #678983;
+    background: #E6DDC4;
 }
+
 
 /* Works on Firefox */
 * {
